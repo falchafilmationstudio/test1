@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Falcha Filmation Studio — cinematic films, creative storytelling, and digital brand promotion.">
+  <meta name="theme-color" content="#0b0b0d">
+  <title>Falcha Filmation Studio | Stories That Stay</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="film-grain" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Falcha Filmation Studio home">
+      <span class="brand-mark">F<span>F</span></span>
+      <span class="brand-name">FALCHA <small>FILMATION STUDIO</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav">
+      <a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#contact" class="nav-cta">Let's talk <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-image" role="img" aria-label="Cinematic film production set"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span></span> INDEPENDENT CREATIVE PRODUCTION STUDIO</p>
+        <h1>Every story<br>deserves to be <em>seen.</em></h1>
+        <p class="hero-copy">We turn ideas into powerful visuals, meaningful films, and stories that move people.</p>
+        <div class="hero-actions">
+          <a class="button button-gold" href="#services">Explore our work <span>↗</span></a>
+          <a class="text-link" href="#about">Discover Falcha <span>↓</span></a>
+        </div>
+      </div>
+      <div class="hero-bottom"><span>STORIES • VISUALS • IMPACT</span><span class="scroll-note">SCROLL TO EXPLORE ↓</span></div>
+      <div class="hero-index">01 <i>/</i> 04</div>
+    </section>
+
+    <section class="intro section-pad" id="about">
+      <div class="section-kicker">01 / WHO WE ARE</div>
+      <div class="intro-grid">
+        <div><p class="eyebrow gold">CREATIVITY WITH A PURPOSE</p><h2>We make ideas<br>feel <em>real.</em></h2></div>
+        <div class="intro-text">
+          <p class="lead">Falcha Filmation Studio is a creative film and visual production studio built around one belief: a good story can make people stop, feel, and remember.</p>
+          <p>From concept to final frame, we bring together imagination, thoughtful storytelling, and cinematic craft to help people and brands share what matters.</p>
+          <a class="under-link" href="#contact">Have a story in mind? <span>Let's create it ↗</span></a>
+        </div>
+      </div>
+      <div class="stats">
+        <div><strong>01</strong><span>One creative vision</span></div>
+        <div><strong>∞</strong><span>Stories to tell</span></div>
+        <div><strong>100%</strong><span>Passion in every frame</span></div>
+      </div>
+    </section>
+
+    <section class="services section-pad" id="services">
+      <div class="section-kicker">02 / WHAT WE DO</div>
+      <div class="services-heading"><div><p class="eyebrow gold">FROM FIRST IDEA TO FINAL CUT</p><h2>Creative services.<br><em>Cinematic results.</em></h2></div><p>Whether you're building a brand or bringing a story to life, we create visuals designed to connect with your audience.</p></div>
+      <div class="service-grid">
+        <article class="service-card service-one"><span class="service-number">01</span><div><h3>Film & Video<br>Production</h3><p>Story-driven films, promotional videos, short films, and visual storytelling.</p></div><span class="service-arrow">↗</span></article>
+        <article class="service-card service-two"><span class="service-number">02</span><div><h3>Commercials &<br>Brand Promotion</h3><p>Creative advertisements and brand films that make your business memorable.</p></div><span class="service-arrow">↗</span></article>
+        <article class="service-card service-three"><span class="service-number">03</span><div><h3>AI Creative<br>Production</h3><p>Imaginative AI-powered visuals, animation, and cinematic concepts.</p></div><span class="service-arrow">↗</span></article>
+        <article class="service-card service-four"><span class="service-number">04</span><div><h3>Social Media<br>Content</h3><p>Engaging short-form videos and creative content for digital platforms.</p></div><span class="service-arrow">↗</span></article>
+      </div>
+    </section>
+
+    <section class="statement">
+      <div class="statement-bg"></div>
+      <div class="statement-content"><p class="eyebrow">THE FALCHA APPROACH</p><h2>Not just content.<br><em>A feeling. A memory.<br>A story worth sharing.</em></h2><a class="button button-outline" href="#contact">Create with us <span>↗</span></a></div>
+    </section>
+
+    <section class="contact section-pad" id="contact">
+      <div class="section-kicker">03 / START A PROJECT</div>
+      <div class="contact-grid">
+        <div class="contact-copy"><p class="eyebrow gold">LET'S MAKE SOMETHING MATTER</p><h2>Your idea.<br>Our <em>next story.</em></h2><p>Tell us a little about what you have in mind. We’d love to hear from you.</p><div class="contact-detail"><span>EMAIL</span><a href="mailto:hello@falchafilmation.com">hello@falchafilmation.com</a><small>Replace this with your preferred email before publishing.</small></div></div>
+        <form class="contact-form" id="contactForm">
+          <label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Full name" required>
+          <label for="email">Email address</label><input id="email" name="email" type="email" placeholder="you@example.com" required>
+          <label for="project">What are you looking to create?</label><select id="project" name="project"><option>Film / Video Production</option><option>Commercial / Brand Promotion</option><option>AI Creative Production</option><option>Social Media Content</option><option>Something else</option></select>
+          <label for="message">Tell us about your project</label><textarea id="message" name="message" rows="4" placeholder="A few details about your idea..." required></textarea>
+          <button class="button button-gold submit-button" type="submit">Send project enquiry <span>↗</span></button>
+          <p class="form-note" id="formNote">Your email app will open with your enquiry ready to send.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand" href="#home"><span class="brand-mark">F<span>F</span></span><span class="brand-name">FALCHA <small>FILMATION STUDIO</small></span></a>
+    <p>Capturing ideas. Creating impact.</p>
+    <span class="copyright">© <span id="year"></span> Falcha Filmation Studio. All rights reserved.</span>
+    <a class="back-top" href="#home">BACK TO TOP ↑</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
