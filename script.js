@@ -14,7 +14,7 @@ document.getElementById("year").textContent = new Date().getFullYear();
 
 // GitHub Pages is a static host. This form opens the visitor's email app.
 // Replace the address below with the studio's real enquiry email.
-const studioEmail = "hello@falchafilmation.com";
+const studioEmail = "devkotarejil@gmail.com";
 document.getElementById("contactForm").addEventListener("submit", event => {
   event.preventDefault();
   const form = new FormData(event.currentTarget);
